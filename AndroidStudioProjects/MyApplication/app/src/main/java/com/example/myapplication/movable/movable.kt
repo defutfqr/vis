@@ -9,3 +9,4 @@ interface Movable {
     fun move()
     fun getPosition(): Pair<Double, Double> = Pair(x, y)
 }
+
