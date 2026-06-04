@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ToggleButton
+                android:id="@+id/toggleButton"
+                android:text="Старт"
+                android:textOn="СТОП"
+                android:textOff="СТАРТ"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+        <TextView
+                android:id="@+id/tvLat"
+                android:text="Lat: "
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvLon"
+                android:text="Lon: "
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvAlt"
+                android:text="Alt:  м"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvAcc"
+                android:text="Acc:  м"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvNetwork"
+                android:text="Network: "
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvBand"
+                android:text="Band: "
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvMccMnc"
+                android:text="MCC-MNC: "
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvPci"
+                android:text="PCI: "
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvRsrp"
+                android:text="RSRP:  dBm"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tvRssi"
+                android:text="RSSI:  dBm"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</ScrollView>
